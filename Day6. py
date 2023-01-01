@@ -1,0 +1,11 @@
+x = int(input("enter x coordinate"))
+y = int(input("enter y coordinate"))
+
+if x>0 and y>0:
+    print("point is in 1 quadrant")
+elif x<0 and y>0:
+    print("point is in 2 quadrant")
+elif x<0 and y<0:
+    print("point is in 3 quadrant")
+elif x>0 and y<0:
+    print("point is in 4 quadrant")
