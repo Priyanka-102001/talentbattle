@@ -1,0 +1,3 @@
+print("enter character")
+c=input()
+print("Ascii value of "+c+"is",ord(c))
